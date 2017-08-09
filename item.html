@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>App Store</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/core.css">
+	<link rel="stylesheet" href="./css/item.css">
+	<script src="./js/vendor/jquery.min.js"></script>
+	<script src="./js/vendor/js.cookie.min.js"></script>
+	<script src="./js/core.js"></script>
+	<script src="./js/item.js"></script>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://georgelim.me/app-store-web-port/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://georgelim.me/app-store-web-port/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="http://georgelim.me/app-store-web-port/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="http://georgelim.me/app-store-web-port/favicon-16x16.png" sizes="16x16">
+  <meta name="application-name" content="App Store">
+  <meta name="msapplication-TileColor" content="#2D89EF">
+  <meta name="msapplication-TileImage" content="http://georgelim.me/app-store-web-port/mstile-144x144.png">
+</head>
+<body>
+	<header class="global">
+		<div id="status-bar" class="three-columns"><div
+			class="column vcenter"><span
+			id="sb-carrier" class="column-item inline-alignment-container"></span><img
+			id="sb-wifi" src="./assets/wifi@2x.png" alt="" class="column-item inline-alignment-container"></div><div
+			class="column vcenter"><div
+			id="sb-time" class="column-item inline-alignment-container"></div></div><div
+			class="column vcenter"><span
+			id="sb-battery-percentage" class="column-item inline-alignment-container">100%</span><img
+			id="sb-battery-icon" src="./assets/battery@2x.png" alt="" class="column-item inline-alignment-container"></div>
+		</div>
+		<nav id="nav-bar" class="three-columns"><div
+			class="column vcenter"><a
+			href="." class="column-item link inline-alignment-container">
+			<img src="./assets/back-arrow@2x.png" alt="Featured page" class="back-arrow">
+			<span class="back-title">Featured</span></a></div><div
+			class="column vcenter"></div><div
+			class="column vcenter"></div>
+		</nav>
+	</header>
+	<main>
+		<section class="item-title-bar">
+			<div class="content-container"><div
+				class="thumbnail-container">
+				<img src="./assets/default.png" alt="" class="item-thumbnail"></div><div
+				class="title-info">
+				<h2 class="item-title ellipsis">App Title</h2>
+				<a href="#" class="item-author expand-info">
+					<span>George Lim</span>
+					<img src="./assets/expand-arrow@2x.png" alt="" class="expand-arrow">
+				</a>
+				<a href="#" class="get-item"></a></div>
+			</div>
+		</section>
+		<section>
+			<div class="title-bar"><div
+				class="title-container">
+				<h2 class="ellipsis">App Store Editors' Notes</h2></div>
+			</div>
+			<div class="content-container description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam pharetra enim id pulvinar. Nunc pretium nulla porta, rhoncus dui vitae, suscipit nunc. Aliquam sollicitudin facilisis nisi, id venenatis nulla placerat non. Ut sed rutrum velit. Nullam pellentesque nibh vitae consectetur scelerisque. Mauris ipsum ex, consectetur vitae mi in, tincidunt.</p>
+			</div>
+			<div class="divider"></div>
+		</section>
+		<section class="screenshot item-group landscape-tablet">
+			<div class="title-bar"><div
+				class="title-container">
+				<h2 class="ellipsis">Screenshots</h2></div>
+			</div>
+			<div class="item-list hscroll">
+				<div class="left scroll-assist"></div>
+				<div class="overflow-container"><a
+					href="#" class="scroll-item">
+          <iframe src="https://www.youtube.com/embed/FC0pT9xg1oI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video thumbnail-container"></iframe></a><a
+					href="#" class="scroll-item">
+					<div class="thumbnail-container">
+						<img src="./assets/default.png" alt="" class="item-thumbnail">
+					</div></a><a
+					href="#" class="scroll-item">
+					<div class="thumbnail-container">
+						<img src="./assets/default.png" alt="" class="item-thumbnail">
+					</div></a><a
+					href="#" class="scroll-item">
+					<div class="thumbnail-container">
+						<img src="./assets/default.png" alt="" class="item-thumbnail">
+					</div></a><a
+					href="#" class="scroll-item">
+					<div class="thumbnail-container">
+						<img src="./assets/default.png" alt="" class="item-thumbnail">
+					</div></a>
+				</div>
+				<div class="right scroll-assist"></div>
+			</div>
+			<div class="divider"></div>
+		</section>
+		<section class="item-description">
+			<div class="title-bar"><div
+				class="title-container">
+				<h2 class="ellipsis">Description</h2></div>
+			</div>
+			<div class="content-container description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam pharetra enim id pulvinar. Nunc pretium nulla porta, rhoncus dui vitae, suscipit nunc. Aliquam sollicitudin facilisis nisi, id venenatis nulla placerat non. Ut sed rutrum velit. Nullam pellentesque nibh vitae consectetur scelerisque. Mauris ipsum ex, consectetur vitae mi in, tincidunt.</p>
+			</div>
+			<div class="divider"></div>
+		</section>
+		<section class="item-whats-new">
+			<div class="title-bar"><div
+				class="title-container">
+				<h2 class="title-text ellipsis">What's New</h2><p
+				class="title-date description ellipsis">Nov 26, 2016</p></div>
+			</div>
+			<div class="content-container description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam pharetra enim id pulvinar. Nunc pretium nulla porta, rhoncus dui vitae, suscipit nunc.</p>
+				<ul>
+					<li>First change</li>
+					<li>Second change</li>
+					<li>Last change</li>
+				</ul>
+			</div>
+			<div class="divider"></div>
+		</section>
+		<section class="footer">
+			<div id="notice" class="content-container vcenter"><span
+				class="description inline-alignment-container">© 2016-2017 George Lim</span>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
