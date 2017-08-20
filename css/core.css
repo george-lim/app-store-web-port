@@ -372,13 +372,13 @@ body.dark-mode .item-thumbnail, body.dark-mode .item-thumbnail-small, body.dark-
 	left: 0;
 	background-color: rgba(0, 0, 0, .7098039216);
 	opacity: 0;
-	transition: z-index 0.5s step-end, opacity 0.5s linear;
+	transition: z-index 0.3s step-end, opacity 0.3s linear;
 }
 
 body.spotlight #spotlight {
 	z-index: 999;
 	opacity: 1;
-	transition: z-index 0.5s step-start, opacity 0.5s linear;
+	transition: z-index 0.3s step-start, opacity 0.3s linear;
 }
 
 @media only screen and (min-width: 768px) {
