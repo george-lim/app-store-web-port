@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>App Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/item.css">
+  <script src="./js/vendor/jquery.min.js"></script>
+  <script src="./js/vendor/js.cookie.min.js"></script>
+  <script src="./js/core.js"></script>
+  <script src="./js/item.js"></script>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://georgelim.me/app-store-web-port/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://georgelim.me/app-store-web-port/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="http://georgelim.me/app-store-web-port/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="http://georgelim.me/app-store-web-port/favicon-16x16.png" sizes="16x16">
+  <meta name="application-name" content="App Store">
+  <meta name="msapplication-TileColor" content="#2D89EF">
+  <meta name="msapplication-TileImage" content="http://georgelim.me/app-store-web-port/mstile-144x144.png">
+</head>
+<body>
+  <header class="global">
+    <div id="status-bar" class="three-columns"><div
+      class="column vcenter"><span
+      id="sb-carrier" class="column-item inline-alignment-container"></span><img
+      id="sb-wifi" src="./assets/wifi@2x.png" class="column-item inline-alignment-container"></div><div
+      class="column vcenter"><div
+      id="sb-time" class="column-item inline-alignment-container"></div></div><div
+      class="column vcenter"><span
+      id="sb-battery-percentage" class="column-item inline-alignment-container">100%</span><img
+      id="sb-battery-icon" src="./assets/battery@2x.png" class="column-item inline-alignment-container"></div>
+    </div>
+    <nav id="nav-bar" class="three-columns"><div
+      class="column vcenter"><a
+      href="." target="_parent" class="column-item link inline-alignment-container">
+      <img src="./assets/back-arrow@2x.png" alt="Featured page" class="back-arrow">
+      <span class="back-title">Featured</span></a></div><div
+      class="column vcenter"></div><div
+      class="column vcenter"></div>
+    </nav>
+  </header>
+  <main>
+    <section class="item-title-bar">
+      <div class="content-container"><div
+        class="thumbnail-container">
+        <img src="./demo/app-store-icon@2x.png" class="item-thumbnail"></div><div
+        class="title-info">
+        <h2 class="item-title ellipsis">App Store</h2>
+        <a href="https://www.linkedin.com/in/george-lim" target="_blank" class="item-author expand-info">
+          <span>George Lim</span>
+          <img src="./assets/expand-arrow@2x.png" alt="" class="expand-arrow">
+        </a>
+        <a href="https://github.com/george-lim/app-store-web-port" target="_blank" class="get-item"></a></div>
+      </div>
+    </section>
+    <section>
+      <div class="title-bar"><div
+        class="title-container">
+        <h2 class="ellipsis">App Store Editors' Notes</h2></div>
+      </div>
+      <div class="content-container description">
+        <p>SCAMMED! Yeah yeah, this page isn't the app you wanted to click on. Instead, you happened to stumble upon my iOS 10 App Store web port project - which I'd argue is actually cooler than that app you clicked on. Feel free to check out the code on GitHub and integrate this project into your own website!</p>
+      </div>
+      <div class="divider"></div>
+    </section>
+    <section class="screenshot item-group landscape-tablet">
+      <div class="title-bar"><div
+        class="title-container">
+        <h2 class="ellipsis">Screenshots</h2></div>
+      </div>
+      <div class="item-list hscroll">
+        <div class="left scroll-assist"></div>
+        <div class="overflow-container"><a
+          href="#" class="scroll-item">
+          <iframe src="https://www.youtube.com/embed/FC0pT9xg1oI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video thumbnail-container"></iframe></a><a
+          href="#" class="scroll-item">
+          <div class="thumbnail-container">
+            <img src="./demo/screenshot-template@2x.png" alt="" class="item-thumbnail">
+          </div></a><a
+          href="#" class="scroll-item">
+          <div class="thumbnail-container">
+            <img src="./demo/screenshot-template@2x.png" alt="" class="item-thumbnail">
+          </div></a><a
+          href="#" class="scroll-item">
+          <div class="thumbnail-container">
+            <img src="./demo/screenshot-template@2x.png" alt="" class="item-thumbnail">
+          </div></a><a
+          href="#" class="scroll-item">
+          <div class="thumbnail-container">
+            <img src="./demo/screenshot-template@2x.png" alt="" class="item-thumbnail">
+          </div></a>
+        </div>
+        <div class="right scroll-assist"></div>
+      </div>
+      <div class="divider"></div>
+    </section>
+    <section class="item-description">
+      <div class="title-bar"><div
+        class="title-container">
+        <h2 class="ellipsis">Description</h2></div>
+      </div>
+      <div class="content-container description">
+        <p>This project tries to take the UI of the iOS 10 App Store and port it into the web with full responsive web design support. Utilizing CSS3 Media Queries, the site switches between iPhone and iPad layouts depending on the width of the browser. Minimal javascript frameworks are used, and support for all browsers from IE9 is included.</p>
+      </div>
+      <div class="divider"></div>
+    </section>
+    <section class="item-whats-new">
+      <div class="title-bar"><div
+        class="title-container">
+        <h2 class="title-text ellipsis">What's New</h2><p
+        class="title-date description ellipsis">Aug 24, 2017</p></div>
+      </div>
+      <div class="content-container description">
+        <p>Summer 2017 is almost over - but I still managed to sneak in a helpful update to this project.</p>
+        <ul>
+          <li>Added THIS demo page into the project!</li>
+        </ul>
+      </div>
+      <div class="divider"></div>
+    </section>
+    <section class="footer">
+      <div id="notice" class="content-container vcenter"><span
+        class="description inline-alignment-container">© 2016-2017 George Lim</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
