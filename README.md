@@ -11,7 +11,7 @@ This project tries to take the UI of the iOS 10 App Store and port it into the w
 
 # Inspiration
 
-As a huge Apple fan, I suddenly had the urge to "move" the App Store onto the web. This project is meant to serve as the ultimate test for my web design abilities. Since Github Pages is static, this version of the site will be limited to pure HTML5, CSS3, and jQuery goodness :) Eventually, I will move this project onto my proper personal site and implement
+As a huge Apple fan, I suddenly had the urge to "move" the App Store onto the web. This project is meant to serve as the ultimate test for my web design abilities. Since GitHub Pages is static, this version of the site will be limited to pure HTML5, CSS3, and jQuery goodness :) Eventually, I will move this project onto my proper personal site and implement
 the back end to hopefully one day (maybe) make a functional App Store port on web (if I don't get attacked by Apple's Lawyers LOL)
 
 Anyway, this site will be a personal test to see how much I have grown over the years in full stack development. I am planning on supporting as many devices and browsers as possible, and have managed to accomplish backwards compatibility to IE9.
