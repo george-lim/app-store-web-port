@@ -10,7 +10,7 @@ This project takes the UI of the iOS 10 App Store and ports it onto the web with
 1. [JavaScript-enabled Behaviours](#javascript-enabled-behaviours)
 
 # Inspiration
-As an Apple fan, I hated the way the App Store was presented on the web. So, I wanted to try my hand at bring the App Store look and feel to the web. Since GitHub Pages is static, there will be no backend fetching the latest apps from the App Store.
+I always hated the way the App Store looked on the web. So, I wanted to try my hand at bringing the App Store interface to the web. Since GitHub Pages is static, there will be no backend fetching the latest apps from the App Store.
 
 This project is also meant to serve as a test to see how much I have grown over my years of full stack development. I am planning on supporting as many devices and browsers as possible, and have managed to accomplish backwards compatibility to IE9.
 
