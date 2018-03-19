@@ -1,4 +1,10 @@
 iOS 10 App Store Web Port
+<br>
+![GitHub downloads](https://img.shields.io/github/downloads/george-lim/app-store-web-port/total.svg)
+[![GitHub release](https://img.shields.io/github/release/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/releases)
+[![GitHub issues](https://img.shields.io/github/issues/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/pulls)
+[![license](https://img.shields.io/github/license/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/blob/master/LICENSE)
 ===============
 
 This project takes the UI of the iOS 10 App Store and ports it onto the web with full responsive web design support. Utilizing CSS3 Media Queries, the site switches between iPhone and iPad layouts depending on the width of the browser. Minimal javascript frameworks are used, and support for all browsers from IE9 is included.
