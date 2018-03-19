@@ -1,7 +1,13 @@
 iOS 10 App Store Web Port
+<br>
+![GitHub downloads](https://img.shields.io/github/downloads/george-lim/app-store-web-port/total.svg)
+[![GitHub release](https://img.shields.io/github/release/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/releases)
+[![GitHub issues](https://img.shields.io/github/issues/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/pulls)
+[![license](https://img.shields.io/github/license/george-lim/app-store-web-port.svg)](https://github.com/george-lim/app-store-web-port/blob/master/LICENSE)
 ===============
 
-This project tries to take the UI of the iOS 10 App Store and port it into the web with full responsive web design support. Utilizing CSS3 Media Queries, the site switches between iPhone and iPad layouts depending on the width of the browser. Minimal javascript frameworks are used, and support for all browsers from IE9 is included.
+This project takes the UI of the iOS 10 App Store and ports it onto the web with full responsive web design support. Utilizing CSS3 Media Queries, the site switches between iPhone and iPad layouts depending on the width of the browser. Minimal javascript frameworks are used, and support for all browsers from IE9 is included.
 
 1. [Inspiration](#inspiration)
 1. [Features](#features)
@@ -10,11 +16,9 @@ This project tries to take the UI of the iOS 10 App Store and port it into the w
 1. [JavaScript-enabled Behaviours](#javascript-enabled-behaviours)
 
 # Inspiration
+I always hated the way the App Store looked on the web. So, I wanted to try my hand at bringing the App Store interface to the web. Since GitHub Pages is static, there will be no backend fetching the latest apps from the App Store.
 
-As a huge Apple fan, I suddenly had the urge to "move" the App Store onto the web. This project is meant to serve as the ultimate test for my web design abilities. Since Github Pages is static, this version of the site will be limited to pure HTML5, CSS3, and jQuery goodness :) Eventually, I will move this project onto my proper personal site and implement
-the back end to hopefully one day (maybe) make a functional App Store port on web (if I don't get attacked by Apple's Lawyers LOL)
-
-Anyway, this site will be a personal test to see how much I have grown over the years in full stack development. I am planning on supporting as many devices and browsers as possible, and have managed to accomplish backwards compatibility to IE9.
+This project is also meant to serve as a test to see how much I have grown over my years of full stack development. I am planning on supporting as many devices and browsers as possible, and have managed to accomplish backwards compatibility to IE9.
 
 # Features
 * Developed with screen-reader/voice-over compatibility in mind
@@ -42,7 +46,6 @@ Anyway, this site will be a personal test to see how much I have grown over the 
 * Includes device type-specific behaviours
 
 # JavaScript-enabled Behaviours
-**Featured Page**
 * Infinite top banner scrolling
 * Gallery auto-scrolling for top banners
 * Manual horizontal scrolling enabled when mouse is hovered on edge of screen
