@@ -133,6 +133,7 @@ body.dark-mode .description {
 
 .hscroll {
 	overflow-y: hidden;
+	z-index: 1;
 }
 
 .hscroll > .overflow-container {
